@@ -20,7 +20,10 @@ body{
 }
 
 .minun{
-
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 
 .minun__face{
@@ -38,7 +41,7 @@ body{
     height:7rem;
     background:black;
     position:absolute;
-    top:50%;
+    top:45%;
     transform: translateY(-50%);
     border-radius: 50%; 
     overflow:hidden;
@@ -67,7 +70,7 @@ body{
     position:absolute;
     left:50%;
     transform:translate(-50%) rotate(5deg);
-    top:65%;
+    top:63%;
     width: 1.5rem;
     height: 0.3rem;
     background:linear-gradient(90deg,black,90%,transparent);
@@ -123,8 +126,36 @@ body{
     transform:rotate(5deg);
 }
 
-.u-flex-center{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.minun__ear{
+    position: absolute;
+    height: 30rem;
+    width:13rem;
+    background:var(--minun-cheek-color);
+    top:-89%;
+    border-radius: 50%;
+    border:var(--minun-border);
+}
+
+.minun__ear::after{
+    content:"";
+    width:6rem;
+    height:6rem;
+    background:var(--minun-body-color);
+    position: absolute;
+    bottom:-1%;
+    border-radius: 50%;
+    left:50%;
+    transform: translateX(-50%);
+    border: var(--minun-border);
+    border-bottom: 0.2rem solid transparent;
+}
+
+.minun__ear--left{
+    left:-4%;
+    transform: rotate(-20deg);
+}
+
+.minun__ear--right{
+    right: -4%;
+    transform: rotate(20deg);
 }
