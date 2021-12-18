@@ -6,6 +6,7 @@
 
 :root{
     --minun-body-color: #F5EAB2;
+    --minun-cheek-color: #73BBE3;
     --minun-border: 0.3rem solid black;
 }
 html{
@@ -29,6 +30,7 @@ body{
     border-radius: 50%;
     border: var(--minun-border);
     position:relative;
+    overflow: hidden;
 }
 
 .minun__eye{
@@ -83,6 +85,44 @@ body{
     border: 0.2rem solid transparent;
     border-bottom: var(--minun-border);
 }
+
+.minun__cheek{
+    width:10rem;
+    height:10rem;
+    background:var(--minun-cheek-color);
+    position:absolute;
+    border-radius: 50%;
+    top:57%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.minun__cheek::after{
+    content:"";
+    width:7rem;
+    height:3rem;
+    background:var(--minun-body-color);
+    border-radius: 5px;
+}
+
+.minun__cheek--left{
+    left:-5%;
+}
+
+.minun__cheek--left::after{
+    transform:rotate(-5deg);
+}
+
+.minun__cheek--right{
+    right: -5%;
+}
+
+.minun__cheek--right::after{
+    transform:rotate(5deg);
+}
+
 .u-flex-center{
     display:flex;
     justify-content: center;
