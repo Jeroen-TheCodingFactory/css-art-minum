@@ -4,10 +4,87 @@
     box-sizing: border-box;
 }
 
+:root{
+    --minun-body-color: #F5EAB2;
+    --minun-border: 0.3rem solid black;
+}
 html{
     font-size: 62.5%;
 }
 
 body{
-    background:Red;
+    min-height:100vh;
+    max-width:100vw;
+    overflow:hidden;
+}
+
+.minun{
+
+}
+
+.minun__face{
+    width: 33rem;
+    height: 30rem;
+    background:var(--minun-body-color);
+    border-radius: 50%;
+    border: var(--minun-border);
+    position:relative;
+}
+
+.minun__eye{
+    width:4rem;
+    height:7rem;
+    background:black;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    border-radius: 50%; 
+    overflow:hidden;
+    border: var(--minun-border)
+}
+
+.minun__eye--left{
+    left:23%;
+}
+
+.minun__eye--right{
+    right:23%;
+}
+
+.minun__pupil{
+    height: 2.5rem;
+    width:2.5rem;
+    background:white;
+    border-radius: 50%;
+    position:absolute;
+    top:1%;
+    right:10%;
+}
+
+.minun__nose{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%) rotate(5deg);
+    top:65%;
+    width: 1.5rem;
+    height: 0.3rem;
+    background:linear-gradient(90deg,black,90%,transparent);
+    border-radius: 50%;
+}
+
+.minun__mouth{
+    position:absolute;
+    left:50%;
+    top:60%;
+    transform: translateX(-50%) rotate(1deg);
+    width: 15rem;
+    height:5rem;
+    border-radius: 50%;
+    border: 0.2rem solid transparent;
+    border-bottom: var(--minun-border);
+}
+.u-flex-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
