@@ -17,17 +17,22 @@ body{
     min-height:100vh;
     max-width:100vw;
     overflow:hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .minun{
+    position: relative;
     position:absolute;
-    top:60%;
+    display:block;
+    top: 50%;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform:translate(-50%, -50%) scale(0.7);
 }
 
 .minun__face{
-    width: 33rem;
+    width: 34rem;
     height: 30rem;
     background:var(--minun-body-color);
     border-radius: 50%;
@@ -158,4 +163,13 @@ body{
 .minun__ear--right{
     right: -15%;
     transform: rotate(30deg);
+}
+
+
+@media screen and (min-width: 50rem) {
+    .minun{
+        transform: scale(0.9);
+        margin-top:7rem;
+        position: static;
+    }
 }
