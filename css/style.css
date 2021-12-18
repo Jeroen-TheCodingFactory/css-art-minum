@@ -129,9 +129,9 @@ body{
 .minun__ear{
     position: absolute;
     height: 30rem;
-    width:13rem;
+    width:12rem;
     background:var(--minun-cheek-color);
-    top:-89%;
+    top:-83%;
     border-radius: 50%;
     border:var(--minun-border);
 }
@@ -151,11 +151,11 @@ body{
 }
 
 .minun__ear--left{
-    left:-4%;
-    transform: rotate(-20deg);
+    left:-15%;
+    transform: rotate(-30deg);
 }
 
 .minun__ear--right{
-    right: -4%;
-    transform: rotate(20deg);
+    right: -15%;
+    transform: rotate(30deg);
 }
