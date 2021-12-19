@@ -102,9 +102,7 @@ body{
     position:absolute;
     border-radius: 50%;
     top:57%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    border: var(--minun-border);
 }
 
 .minun__cheek--left{
@@ -115,21 +113,33 @@ body{
     right: -5%;
 }
 
-.minun__minus{
-    width:7rem;
-    height:3rem;
+.minun__minus, .minun__plus{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:6rem;
+    height:2rem;
     background:var(--minun-body-color);
     border-radius: 5px;
+    border: var(--minun-border);
 }
+
+.minun__minus{
+    transform:translate(-50%,-50%);
+}
+.minun__plus{
+    display:none;
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+
 .minun__minus--left{
-    transform:rotate(-5deg);
+    transform:translate(-50%,-50%) rotate(-5deg);
 }
-
-
 
 .minun__minus--right{
-    transform:rotate(5deg);
+    transform: translate(-50%,-50%) rotate(5deg);
 }
+
 
 .minun__ear{
     position: absolute;
