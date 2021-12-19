@@ -8,6 +8,7 @@
     --minun-body-color: #F5EAB2;
     --minun-cheek-color: #73BBE3;
     --minun-border: 0.3rem solid black;
+    --plusle-color: #C15257;
 }
 html{
     font-size: 62.5%;
@@ -51,10 +52,19 @@ body{
     z-index: 1;
 }
 
-/* toggle for plusle and minum */
-.minun__checkbox:checked ~ .minun__face{
-    background:red;
+/* toggle options for plusle and minum */
+.minun__checkbox:checked ~ .minun__face .minun__cheek .minun__plus{
+    visibility: visible;
 }
+
+.minun__checkbox:checked ~  .minun__face{
+    --minun-cheek-color: var(--plusle-color);
+}
+
+.minun__checkbox:checked ~  .minun__ear{
+    --minun-cheek-color: var(--plusle-color);
+}
+
 
 .minun__face{
     width: 34rem;
@@ -153,6 +163,7 @@ body{
 }
 .minun__plus{
     transform: translate(-50%,-50%) rotate(91deg);
+    visibility: hidden;
 }
 
 .minun__ear{
