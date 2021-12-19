@@ -13,3 +13,5 @@ Het screenshot voor mobiel en desktop zijn identiek, vandaar dat alleen desktop 
 ## Resources
 1. Image die ik heb gebruikt ter inspiratie voor Minun => https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.pokemondb.net%2Fartwork%2Flarge%2Fminun.jpg&f=1&nofb=1 
 2. Tool voor het halen van kleuren uit een image => https://html-color-codes.info/colors-from-image/ 
+3. Youtube video gebruikt voor Minun zijn/haar cry => https://www.youtube.com/watch?v=y40IsW_ttDc 
+4. Youtube video gebruikt voor Plusle zijn/haar cry => https://www.youtube.com/watch?v=qhnZfeFqlXs 
