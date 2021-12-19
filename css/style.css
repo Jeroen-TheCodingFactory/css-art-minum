@@ -217,6 +217,40 @@ body{
     transform: rotate(30deg);
 }
 
+/* Sound button for playing music */
+.soundButton{
+    position: absolute;
+    bottom:10%;
+    right:10%;
+    width: 10rem;
+    height:10rem;
+    border-radius: 50%;
+    border:var(--minun-border);
+    background: black;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
+}
+
+.soundButton:hover{
+    cursor:pointer;
+}
+
+.soundButton:focus{
+    outline: 0.5rem solid blue; 
+}
+
+.soundButton::after{
+    content:"";
+    height:4rem;
+    width:4rem;
+    position:absolute;
+    top:50%;
+    left:55%;
+    background:white;
+    transform:translate(-50%,-50%);
+    -webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+
 @media screen and (min-width: 50rem) {
     .minun{
         transform: scale(0.9);
