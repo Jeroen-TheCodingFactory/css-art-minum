@@ -4,10 +4,223 @@
     box-sizing: border-box;
 }
 
+:root{
+    --minun-body-color: #F5EAB2;
+    --minun-cheek-color: #73BBE3;
+    --minun-border: 0.3rem solid black;
+    --plusle-color: #C15257;
+}
 html{
     font-size: 62.5%;
 }
 
 body{
-    background:Red;
+    min-height:100vh;
+    max-width:100vw;
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--minun-cheek-color);
+    background: linear-gradient(30deg, var(--minun-cheek-color)50%, var(--plusle-color) 50%);
+}
+
+.minun{
+    position: relative;
+    position:absolute;
+    display:block;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%) scale(0.7);
+}
+
+.minun__checkbox{
+    width:0;
+    height:0;
+    -webkit-appearance: none;
+    appearance: none;
+    outline:0;
+    position:absolute;
+}
+
+.minun__label{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:150%;
+    height:230%;
+    z-index: 1;
+}
+
+.minun__label:hover{
+    cursor: pointer;
+}
+
+/* toggle options for plusle and minum */
+.minun__checkbox:checked ~ .minun__face .minun__cheek .minun__plus{
+    visibility: visible;
+}
+
+.minun__checkbox:checked ~  .minun__face{
+    --minun-cheek-color: var(--plusle-color);
+}
+
+.minun__checkbox:checked ~  .minun__ear{
+    --minun-cheek-color: var(--plusle-color);
+}
+
+
+.minun__face{
+    width: 34rem;
+    height: 30rem;
+    background:var(--minun-body-color);
+    border-radius: 50%;
+    border: var(--minun-border);
+    position:relative;
+    overflow:hidden;
+}
+
+.minun__eye{
+    width:4rem;
+    height:7rem;
+    background:black;
+    position:absolute;
+    top:45%;
+    transform: translateY(-50%);
+    border-radius: 50%; 
+    overflow:hidden;
+    border: var(--minun-border)
+}
+
+.minun__eye--left{
+    left:23%;
+}
+
+.minun__eye--right{
+    right:23%;
+}
+
+.minun__pupil{
+    height: 2.5rem;
+    width:2.5rem;
+    background:white;
+    border-radius: 50%;
+    position:absolute;
+    top:1%;
+    right:10%;
+}
+
+.minun__nose{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%) rotate(5deg);
+    top:63%;
+    width: 1.5rem;
+    height: 0.3rem;
+    background:linear-gradient(90deg,black,90%,transparent);
+    border-radius: 50%;
+}
+
+.minun__mouth{
+    position:absolute;
+    left:50%;
+    top:60%;
+    transform: translateX(-50%) rotate(1deg);
+    width: 15rem;
+    height:5rem;
+    border-radius: 50%;
+    border: 0.2rem solid transparent;
+    border-bottom: var(--minun-border);
+}
+
+.minun__cheek{
+    width:10rem;
+    height:10rem;
+    background:var(--minun-cheek-color);
+    position:absolute;
+    border-radius: 50%;
+    top:57%;
+    border: var(--minun-border);
+}
+
+.minun__cheek--left{
+    left:-5%;
+}
+
+.minun__cheek--right{
+    right: -5%;
+}
+
+.minun__minus, .minun__plus{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:6rem;
+    height:2rem;
+    background:var(--minun-body-color);
+    border-radius: 5px;
+    border: var(--minun-border);
+}
+
+.minun__minus--left{
+    transform:translate(-50%,-50%) rotate(-5deg);
+}
+
+.minun__minus--right{
+    transform:translate(-50%,-50%) rotate(5deg);
+}
+
+.minun__plus{
+    visibility: hidden;
+}
+
+.minun__plus--left{
+    transform: translate(-50%,-50%) rotate(84deg);
+}
+
+.minun__plus--right{
+    transform: translate(-50%,-50%) rotate(96deg);
+}
+
+.minun__ear{
+    position: absolute;
+    height: 30rem;
+    width:12rem;
+    background:var(--minun-cheek-color);
+    top:-83%;
+    border-radius: 50%;
+    border:var(--minun-border);
+}
+
+.minun__ear::after{
+    content:"";
+    width:6rem;
+    height:6rem;
+    background:var(--minun-body-color);
+    position: absolute;
+    bottom:-1%;
+    border-radius: 50%;
+    left:50%;
+    transform: translateX(-50%);
+    border: var(--minun-border);
+    border-bottom: 0.2rem solid transparent;
+}
+
+.minun__ear--left{
+    left:-15%;
+    transform: rotate(-30deg);
+}
+
+.minun__ear--right{
+    right: -15%;
+    transform: rotate(30deg);
+}
+
+@media screen and (min-width: 50rem) {
+    .minun{
+        transform: scale(0.9);
+        margin-top:7rem;
+        position: static;
+    }
 }
