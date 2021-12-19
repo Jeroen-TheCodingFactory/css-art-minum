@@ -22,6 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     background: var(--minun-cheek-color);
+    background: linear-gradient(30deg, var(--minun-cheek-color)50%, var(--plusle-color) 50%);
 }
 
 .minun{
