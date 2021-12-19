@@ -39,7 +39,7 @@ body{
     border-radius: 50%;
     border: var(--minun-border);
     position:relative;
-    overflow: hidden;
+    overflow:hidden;
 }
 
 .minun__eye{
@@ -128,16 +128,7 @@ body{
     transform:translate(-50%,-50%);
 }
 .minun__plus{
-    display:none;
-    transform: translate(-50%,-50%) rotate(90deg);
-}
-
-.minun__minus--left{
-    transform:translate(-50%,-50%) rotate(-5deg);
-}
-
-.minun__minus--right{
-    transform: translate(-50%,-50%) rotate(5deg);
+    transform: translate(-50%,-50%) rotate(91deg);
 }
 
 
