@@ -23,8 +23,14 @@ Verschillende screenshots van Minun en Plusle op desktop.
 ### Minun
 ![Het gerealiseerde eindproduct op desktop: Minun, gerealiseerd in HTML, CSS en Javascript (audio)](https://minun.css-art.nl/img/minun.png "Minun")
 
+### Shiny Minun
+![Het gerealiseerde eindproduct op desktop: Shiny Minun, gerealiseerd in HTML, CSS en Javascript (audio)](https://minun.css-art.nl/img/minun--shiny.png "Minun")
+
 ### Plusle
 ![Het gerealiseerde eindproduct op desktop: Plusle, gerealiseerd in HTML, CSS en Javascript (audio)](https://minun.css-art.nl/img/plusle.png "Plusle")
+
+### Shiny Plusle
+![Het gerealiseerde eindproduct op desktop: Shiny Plusle, gerealiseerd in HTML, CSS en Javascript (audio)](https://minun.css-art.nl/img/plusle--shiny.png "Plusle")
 
 ## Live demo
 https://minun.css-art.nl
@@ -37,3 +43,5 @@ https://minun.css-art.nl
 5. Youtube video gebruikt voor Plusle zijn/haar cry => https://www.youtube.com/watch?v=qhnZfeFqlXs 
 6. OpenGraph, een site voor het makkelijk genereren van Open Graph Protocol (OGP) meta-tags => https://opengraph.xyz
 7. Dé applicatie voor het testen van je code op oudere en andere browsers => https://browserstack.com 
+8. Afbeelding gebruikt voor inspiratie shiny Minun => https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg1.wikia.nocookie.net%2F__cb20140310065437%2Fleonhartimvu%2Fimages%2F4%2F4e%2F312_Minun_Shiny.png&f=1&nofb=1 
+9. Afbeelding gebruikt voor inspiratie shiny Plusle => https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg3.wikia.nocookie.net%2F__cb20130902154103%2Fleonhartimvu%2Fimages%2Farchive%2Fc%2Fc8%2F20140310065434!311_Plusle_AG_Shiny.png&f=1&nofb=1
