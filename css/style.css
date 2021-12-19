@@ -170,9 +170,17 @@ body{
 .minun__minus--right{
     transform:translate(-50%,-50%) rotate(5deg);
 }
+
 .minun__plus{
-    transform: translate(-50%,-50%) rotate(91deg);
     visibility: hidden;
+}
+
+.minun__plus--left{
+    transform: translate(-50%,-50%) rotate(84deg);
+}
+
+.minun__plus--right{
+    transform: translate(-50%,-50%) rotate(96deg);
 }
 
 .minun__ear{
