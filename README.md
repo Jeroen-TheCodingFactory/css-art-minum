@@ -20,6 +20,12 @@ Na Mudkip (https://mudkip.css-art.nl) en Hoothoot (https://hoothoot.css-art.nl) 
 ## Screenshots
 Verschillende screenshots van Minun en Plusle op desktop. 
 
+### Minun
+![Het gerealiseerde eindproduct op desktop: Minun, gerealiseerd in HTML, CSS en Javascript (audio)](https://minun.css-art.nl/img/minun.png "Minun")
+
+### Plusle
+![Het gerealiseerde eindproduct op desktop: Plusle, gerealiseerd in HTML, CSS en Javascript (audio)](https://minun.css-art.nl/img/plusle.png "Plusle")
+
 ## Live demo
 https://minun.css-art.nl
 
@@ -31,26 +37,3 @@ https://minun.css-art.nl
 5. Youtube video gebruikt voor Plusle zijn/haar cry => https://www.youtube.com/watch?v=qhnZfeFqlXs 
 6. OpenGraph, een site voor het makkelijk genereren van Open Graph Protocol (OGP) meta-tags => https://opengraph.xyz
 7. Dé applicatie voor het testen van je code op oudere en andere browsers => https://browserstack.com 
-
-
-### Mudkip
-![Het gerealiseerde eindproduct op desktop: Mudkip met animatie, gerealiseerd in HTML, CSS en Javascript (audio)](https://mudkip.css-art.nl/img/mudkip.png "Mudkip wakker")
-
-![Het gerealiseerde eindproduct op desktop: Mudkip met animatie, gerealiseerd in HTML, CSS en Javascript (audio). Hij/zij slaapt op deze foto](https://mudkip.css-art.nl/img/mudkip--sleeping.png "Mudkip slapend")
-
-### Shiny Mudkip
-![Het gerealiseerde eindproduct op desktop: Shiny Mudkip met animatie, gerealiseerd in HTML, CSS en Javascript (audio)](https://mudkip.css-art.nl/img/mudkip--shiny.png "Shiny Mudkip wakker")
-
-![Het gerealiseerde eindproduct op desktop: Shiny Mudkip met animatie, gerealiseerd in HTML, CSS en Javascript (audio). Hij/zij slaapt op deze foto](https://mudkip.css-art.nl/img/mudkip--shiny-sleeping.png "Shiny Mudkip wakker")
-
-
-## Live demo
-https://mudkip.css-art.nl
-
-## Resources
-1. W3C-validator, voor het checken van mijn code => https://validator.w3.org/
-2. Afbeelding gebruikt ter inspiratie voor Mudkip => https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette3.wikia.nocookie.net%2Fpokemony%2Fimages%2Fa%2Fae%2FMudkip.png%2Frevision%2Flatest%3Fcb%3D20150825141039%26path-prefix%3Dpl&f=1&nofb=1
-3. Afbeelding gebruikt ter inspiratie voor Shiny Mudkip => https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fleonhartimvu%2Fimages%2F5%2F59%2F258_Mudkip_DW4_Shiny.png%2Frevision%2Flatest%3Fcb%3D20140118000806&f=1&nofb=1
-3. OpenGraph, een site voor het makkelijk genereren van Open Graph Protocol (OGP) meta-tags => https://opengraph.xyz
-4. Video geconverteerd naar MP3 voor het afspelen van Mudkip zijn/haar "cry" => https://www.youtube.com/watch?v=GKV3U5zIbFU  
-5. Dé applicatie voor het testen van je code op oudere en andere browsers => https://browserstack.com 
