@@ -6,7 +6,7 @@
 
 :root{
     --minun-body-color: #F5EAB2;
-    --minun-cheek-color: #73BBE3;
+    --minun-color: #73BBE3;
     --minun-border: 0.3rem solid black;
     --plusle-color: #C15257;
 }
@@ -21,8 +21,8 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    background: var(--minun-cheek-color);
-    background: linear-gradient(30deg, var(--minun-cheek-color)50%, var(--plusle-color) 50%);
+    background: var(--minun-color);
+    background: linear-gradient(30deg, var(--minun-color)50%, var(--plusle-color) 50%);
 }
 
 .minun{
@@ -63,11 +63,11 @@ body{
 }
 
 .minun__checkbox:checked ~  .minun__face{
-    --minun-cheek-color: var(--plusle-color);
+    --minun-color: var(--plusle-color);
 }
 
 .minun__checkbox:checked ~  .minun__ear{
-    --minun-cheek-color: var(--plusle-color);
+    --minun-color: var(--plusle-color);
 }
 
 
@@ -137,7 +137,7 @@ body{
 .minun__cheek{
     width:10rem;
     height:10rem;
-    background:var(--minun-cheek-color);
+    background:var(--minun-color);
     position:absolute;
     border-radius: 50%;
     top:57%;
@@ -187,7 +187,7 @@ body{
     position: absolute;
     height: 30rem;
     width:12rem;
-    background:var(--minun-cheek-color);
+    background:var(--minun-color);
     top:-83%;
     border-radius: 50%;
     border:var(--minun-border);
