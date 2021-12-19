@@ -53,6 +53,10 @@ body{
     z-index: 1;
 }
 
+.minun__label:hover{
+    cursor: pointer;
+}
+
 /* toggle options for plusle and minum */
 .minun__checkbox:checked ~ .minun__face .minun__cheek .minun__plus{
     visibility: visible;
@@ -159,8 +163,12 @@ body{
     border: var(--minun-border);
 }
 
-.minun__minus{
-    transform:translate(-50%,-50%);
+.minun__minus--left{
+    transform:translate(-50%,-50%) rotate(-5deg);
+}
+
+.minun__minus--right{
+    transform:translate(-50%,-50%) rotate(5deg);
 }
 .minun__plus{
     transform: translate(-50%,-50%) rotate(91deg);
