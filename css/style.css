@@ -105,30 +105,29 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-
-}
-
-.minun__cheek::after{
-    content:"";
-    width:7rem;
-    height:3rem;
-    background:var(--minun-body-color);
-    border-radius: 5px;
 }
 
 .minun__cheek--left{
     left:-5%;
 }
 
-.minun__cheek--left::after{
-    transform:rotate(-5deg);
-}
-
 .minun__cheek--right{
     right: -5%;
 }
 
-.minun__cheek--right::after{
+.minun__minus{
+    width:7rem;
+    height:3rem;
+    background:var(--minun-body-color);
+    border-radius: 5px;
+}
+.minun__minus--left{
+    transform:rotate(-5deg);
+}
+
+
+
+.minun__minus--right{
     transform:rotate(5deg);
 }
 
